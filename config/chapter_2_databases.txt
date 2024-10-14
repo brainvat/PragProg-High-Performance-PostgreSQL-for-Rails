@@ -1,0 +1,16 @@
+                                                        List of databases
+         Name          |  Owner   | Encoding | Locale Provider | Collate | Ctype | Locale | ICU Rules |    Access privileges     
+-----------------------+----------+----------+-----------------+---------+-------+--------+-----------+--------------------------
+ ahammock              | ahammock | UTF8     | libc            | C       | C     |        |           | 
+ experiments           | postgres | UTF8     | libc            | C       | C     |        |           | 
+ postgres              | ahammock | UTF8     | libc            | C       | C     |        |           | 
+ rideshare_development | owner    | UTF8     | libc            | C       | C     |        |           | owner=CTc/owner         +
+                       |          |          |                 |         |       |        |           | readwrite_users=Tc/owner+
+                       |          |          |                 |         |       |        |           | readonly_users=c/owner  +
+                       |          |          |                 |         |       |        |           | app_readonly=c/owner
+ template0             | ahammock | UTF8     | libc            | C       | C     |        |           | =c/ahammock             +
+                       |          |          |                 |         |       |        |           | ahammock=CTc/ahammock
+ template1             | ahammock | UTF8     | libc            | C       | C     |        |           | =c/ahammock             +
+                       |          |          |                 |         |       |        |           | ahammock=CTc/ahammock
+(6 rows)
+
